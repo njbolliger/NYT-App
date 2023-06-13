@@ -84,7 +84,7 @@ def main(api_key):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(prog='NYT App', description='From the NYT Article Search API, pull the last 10 articles dated April 2023 ')
-    parser.add_argument('--api_key', help='api_key which was provided privately or your own api_key')
+    parser.add_argument('--api-key', help='api-key which was provided privately or your own api_key')
     args = parser.parse_args()
     vars = vars(args)
 
